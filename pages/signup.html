@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../styles/signup.css">
+    <title>Sugar Mama</title>
+</head>
+<body>
+    <div class="row no-gutters">
+
+        <!-- Left Half -->
+        <div class="col-md-6 no-gutters">
+            <div class="left-side d-flex justify-content-center align-items-center">
+                <!-- <img class="logo center" src="../imgs/sugar-mama.png" alt="Sugar Mama"> -->
+                <div class="logo">
+                    <a href="index.html">sugarmama</a>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Right Half -->
+        <div class="col-md-6 no-gutters">
+            <div class="right-side d-flex justify-content-center align-items-center">
+                <!-- Sign Up -->
+                <div class="signup-container row no-gutters">
+                    <form action="" class="form">
+                        <h2>Create Account</h2>
+
+                        <!-- Input First Name -->
+                        <div class="input-group">
+                            <input type="text" name="signup-fn" id="signup-fn" required>
+                            <label for="signup-fn">First Name</label>
+                        </div>
+
+                        <!-- Input Last Name -->
+                        <div class="input-group">
+                            <input type="text" name="signup-ln" id="signup-ln" required>
+                            <label for="signup-ln">Last Name</label>
+                        </div>
+
+                        <!-- Input Username -->
+                        <div class="input-group">
+                            <input type="text" name="signup-un" id="signup-un" required>
+                            <label for="signup-un">Username</label>
+                        </div>
+
+                        <!-- Input Email -->
+                        <div class="input-group">
+                            <input type="email" name="signup-em" id="signup-em" required>
+                            <label for="signup-em">Email</label>
+                        </div><br>
+
+                        <!-- Input Password -->
+                        <div class="input-group">
+                            <input type="password" name="login-pw" id="login-pw" required>
+                            <label for="login-pw">Password</label>
+                        </div>
+
+                        <!-- Input Password for Confirmation -->
+                        <div class="input-group">
+                            <input type="password" name="login-pw" id="login-pw" required>
+                            <label for="login-pw">Confirm Password</label>
+                        </div>
+                
+                        <!-- Submit Button -->
+                        <input type="submit" value="Sign Up" class="submit-btn">
+
+                        <p id="log">Already have an account? <a href=../pages/index.html class="login">Log in</a> here.</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

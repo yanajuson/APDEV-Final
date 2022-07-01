@@ -1,0 +1,168 @@
+/* google fonts cdn links */
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mukta', sans-serif;
+}
+
+body {
+    background: url('../images/index/home-bg.jpg') no-repeat;
+    background-size: cover;
+}
+
+.tag {
+    margin-top: 25vh;
+    font-size: 7vh;
+    color: #000;
+    display: flex;
+    justify-content: center;
+}
+
+.tag p, em, b {
+    font-family: 'Averia Serif Libre', sans-serif;
+}
+
+/* RECIPE CONTAINER START */
+.recipes-container {
+    position: absolute;
+    margin-top: 55vh;  
+    left: 50%;  
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    height: 90vh;
+    justify-content: center;
+    width: 80%;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    padding: 5vh 5vh 5vh 5vh;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.5);
+    
+}
+
+.latest {
+  width: 100%;
+  font-size: 5vh;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0%;
+}
+
+.container{
+  max-width: 100%;
+  height: 70vh;
+  overflow: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 20px;
+  gap: 1%;
+  row-gap: 5%;
+}
+
+/* card start */
+
+.card {
+  width: calc(33% - 10px);
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background: #fff; */
+  position: relative;
+  border-radius: 10px;
+}
+.card .image {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 10px
+}
+.card .image img {
+  width: 100%;
+  object-fit: cover;
+  transition: .5s;
+  margin-bottom: -2.8%;
+  border-radius: 10px;
+}
+.card:hover .image img {
+  opacity: .5;
+  transform: translateX(30%);/*100%*/
+}
+.card .details {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70%;/*100%*/
+  height: 100%;
+  border-radius: 6px 0  0 6px;
+  background: rgba(0, 0, 0, 0.493);
+  transition: .5s;
+  transform-origin: left;
+  transform: perspective(2000px) rotateY(-90deg);
+}
+.card:hover .details {
+  transform: perspective(2000px) rotateY(0deg);
+}
+.card .details .pos {
+  padding: 20px;
+  text-align: left;
+  position: absolute;
+  top: 40%;
+  transform: translateY(-50%);
+}
+.card .details .pos h1 {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  line-height: 20px;
+  font-size: 3vh;
+  text-transform: uppercase;
+}
+
+.card .details .pos h1 .rating {
+  font-size: 2vh;
+  color: goldenrod;
+}
+
+.card .details .pos h1 .num-rating {
+  font-size: 65%;
+  color: goldenrod;
+  text-transform: lowercase;
+}
+
+.card .details .pos p {
+  font-size: 90%;
+  margin: 10px 0;
+  padding: 0;
+  color: #fff;
+  line-height: 95%;
+}
+
+.card .details .pos .read-more {
+  width: 60%;
+  background: rgba(255, 255, 255, 0);
+  color: #fff;
+  text-align: center;
+  border-radius: 4px;
+  border: 1pt solid #fff;
+  font-size: 80%;
+}
+
+.card .details .pos .read-more:hover {
+  width: 60%;
+  text-align: center;
+  border-radius: 4px;
+  background-color: #fff;
+  color: black;
+  cursor: pointer;
+}
+
+
+
+

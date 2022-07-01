@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../styles/index.css">
+    <link rel="stylesheet" href="../styles/global.css">
+
+    <!-- box icons font cdn link 
+        - chevron-down
+        - restaurant
+        - x 
+    -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- social media icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+    <!-- HEADER [START] -->
+    <nav>
+        <div class="navbar">
+            <i class='bx bx-menu'></i>
+            <!-- sugar mama logo -->
+            <div class="logo">
+                <i class='bx bx-restaurant spoon-fork'></i>
+                <a href="index.html">sugarmama</a>
+            </div>
+            <!-- links -->
+            <div class="nav-links">
+                <div class="sidebar-logo">
+                    <span class="logo-name">sugarmama</span>
+                    <i class='bx bx-x'></i>
+                </div>
+                <ul class="links">
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="allrecipes.html">All Recipes</a></li>
+                    <!-- browse by with dropdown menu -->
+                    <li>
+                        <a href="#">Browse by</a>
+                        <i class='bx bxs-chevron-down browse-arrow arrow  '></i>
+                        <ul class="browse-sub-menu sub-menu">
+                            <li><a href="pastries.html">Pastries</a></li>
+                            <li><a href="meat.html">Meat</a></li>
+                            <li><a href="appetizers.html">Appetizers</a></li>
+                            <li><a href="pasta.html">Pasta</a></li>
+                            <li><a href="fingerfood.html">Finger Food</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- search bar -->
+            <div class="search-box">
+                <i class='bx bx-search'></i>
+                <div class="input-box">
+                    <input type="text" placeholder="Search...">
+                </div>
+            </div>
+        </div>
+    </nav>
+    <script src="../scripts/index.js"></script>
+    <!-- HEADER [END] -->
+
+    <!-- Tagline -->
+    <div class="tag">
+        <p>The secret ingredient? <b>Love.</b></p>
+    </div>
+
+    <!-- Latest Recipes -->
+    <div class="recipes-container">
+        <div class="latest">ALL RECIPES</div>
+
+        <!-- Grid -->
+        <div class="container">
+
+            <!-- 1 -->
+            <div class="card">
+                <div class="image">
+                    <img src="../images/global/food/steak-frites.png" />
+                </div>
+                <div class="details">
+                    <div class="pos">
+                        <h1>
+                            Steak Frites<br>
+                            <span class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </span>
+                            <span class="num-rating">  (6 reviews)</span>
+                        </h1>
+                        <p>People throughout France sit down regularly to a meal of deceptive simplicity and...</p>
+                        <a href="../pages/steak-frites.html">
+                            <div class="read-more">
+                                READ MORE
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2 -->
+            <div class="card">
+                <div class="image">
+                    <img src="../images/global/food/gyudon.png" />
+                </div>
+                <div class="details">
+                    <div class="pos">
+                        <h1>
+                            Gyudon<br>
+                            <span class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                        </span>
+                            <span class="num-rating">  (5 reviews)</span>
+                        </h1>
+                        <p>Japanese Gyudon, thinly sliced fatty beef cooked in a slightly sweet mixture...</p>
+                        <a href="gyudon.html">
+                            <div class="read-more">
+                                READ MORE
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3 -->
+            <div class="card">
+                <div class="image">
+                    <img src="../images/global/food/beef-salpicao.png" />
+                </div>
+                <div class="details">
+                    <div class="pos">
+                        <h1>
+                            Beef Salpicao<br>
+                            <span class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                            <i class="far fa-star"></i>
+                        </span>
+                            <span class="num-rating">  (5 reviews)</span>
+                        </h1>
+                        <p>Despite the seemingly foreign-sounding name that doesn’t sound very Asian at all, it is in fact a...</p>
+                        <a href="beef-salpicao.html">
+                            <div class="read-more">
+                                READ MORE
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- 4 -->
+            <div class="card">
+                <div class="image">
+                    <img src="../images/global/food/buffalo-wings.png" />
+                </div>
+                <div class="details">
+                    <div class="pos">
+                        <h1>
+                            Buffalo Wings<br>
+                            <span class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                            <i class="far fa-star"></i>
+                        </span>
+                            <span class="num-rating">  (4 reviews)</span>
+                        </h1>
+                        <p>Try this hot wings recipe for Buffalo chicken wings...</p>
+                        <a href="buffalo-wings.html">
+                            <div class="read-more">
+                                READ MORE
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- 5 -->
+            <div class="card">
+                <div class="image">
+                    <img src="../images/global/food/chicken-tacos.png" />
+                </div>
+                <div class="details">
+                    <div class="pos">
+                        <h1>
+                            Chicken Tacos<br>
+                            <span class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                            <i class="far fa-star"></i>
+                        </span>
+                            <span class="num-rating">  (3 reviews)</span>
+                        </h1>
+                        <p>With a simple spice rub – chili powder, cumin, paprika, oregano...</p>
+                        <a href="chicken-tacos.html">
+                            <div class="read-more">
+                                READ MORE
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- 6 -->
+            <div class="card">
+                <div class="image">
+                    <img src="../images/global/food/onion-rings.png" />
+                </div>
+                <div class="details">
+                    <div class="pos">
+                        <h1>
+                            Onion Rings<br>
+                            <span class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </span>
+                            <span class="num-rating">  (4 reviews)</span>
+                        </h1>
+                        <p>Once you try these extra crispy onion rings, you will...</p>
+                        <a href="onion-rings.html">
+                            <div class="read-more">
+                                READ MORE
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- 7 -->
+            <div class="card">
+                <div class="image">
+                    <img src="../images/global/food/aglio-olio.png" />
+                </div>
+                <div class="details">
+                    <div class="pos">
+                        <h1>
+                            Aglio Olio<br>
+                            <span class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </span>
+                            <span class="num-rating">  (3 reviews)</span>
+                        </h1>
+                        <p>No two spaghetti aglio e olio recipes are alike, but this one is...</p>
+                        <a href="aglio-olio.html">
+                            <div class="read-more">
+                                READ MORE
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- 8 -->
+            <div class="card">
+                <div class="image">
+                    <img src="../images/global/food/pesto-pasta.png" />
+                </div>
+                <div class="details">
+                    <div class="pos">
+                        <h1>
+                            Pesto Pasta<br>
+                            <span class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </span>
+                            <span class="num-rating">  (3 reviews)</span>
+                        </h1>
+                        <p>This recipe is for one of our favorite pasta dishes ever:...</p>
+                        <a href="pesto.html">
+                            <div class="read-more">
+                                READ MORE
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- 9 -->
+            <div class="card">
+                <div class="image">
+                    <img src="../images/global/food/garlic-seafood-pasta.png" />
+                </div>
+                <div class="details">
+                    <div class="pos">
+                        <h1>
+                            Garlic Seafood Pasta<br>
+                            <span class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </span>
+                            <span class="num-rating">  (3 reviews)</span>
+                        </h1>
+                        <p>This seafood pasta with creamy garlic sauce is the...</p>
+                        <a href="garlic-seafood.html">
+                            <div class="read-more">
+                                READ MORE
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- 10 -->
+            <div class="card">
+                <div class="image">
+                    <img src="../images/global/food/homemade-potato-chips.png" />
+                </div>
+                <div class="details">
+                    <div class="pos">
+                        <h1>
+                            Homemade Potato Chips<br>
+                            <span class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </span>
+                            <span class="num-rating">  (3 reviews)</span>
+                        </h1>
+                        <p>Making your own Homemade Potato Chips from scratch is...</p>
+                        <a href="potato-chips.html">
+                            <div class="read-more">
+                                READ MORE
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- 11 -->
+            <div class="card">
+                <div class="image">
+                    <img src="../images/global/food/deviled-eggs.png" />
+                </div>
+                <div class="details">
+                    <div class="pos">
+                        <h1>
+                            Deviled Eggs<br>
+                            <span class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </span>
+                            <span class="num-rating">  (3 reviews)</span>
+                        </h1>
+                        <p>Deviled eggs are a classic recipe and perfect...</p>
+                        <a href="deviled-eggs.html">
+                            <div class="read-more">
+                                READ MORE
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- 12 -->
+            <div class="card">
+                <div class="image">
+                    <img src="../images/global/food/salad.png" />
+                </div>
+                <div class="details">
+                    <div class="pos">
+                        <h1>
+                            Salad<br>
+                            <span class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                            <i class="far fa-star"></i>
+                        </span>
+                            <span class="num-rating">  (3 reviews)</span>
+                        </h1>
+                        <p>With a simple spice rub – chili powder, cumin, paprika,...</p>
+                        <a href="salad.html">
+                            <div class="read-more">
+                                READ MORE
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- 13 -->
+            <div class="card">
+                <div class="image">
+                    <img src="../images/global/food/croissants.png" />
+                </div>
+                <div class="details">
+                    <div class="pos">
+                        <h1>
+                            Croissants<br>
+                            <span class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </span>
+                            <span class="num-rating">  (3 reviews)</span>
+                        </h1>
+                        <p>Today we’re conquering our fears and making homemade...</p>
+                        <a href="croissant.html">
+                            <div class="read-more">
+                                READ MORE
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- 14 -->
+            <div class="card">
+                <div class="image">
+                    <img src="../images/global/food/cinnamon-swirl-quick-bread.png" />
+                </div>
+                <div class="details">
+                    <div class="pos">
+                        <h1>
+                            Cinnamon Swirl Quick Bread<br>
+                            <span class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </span>
+                            <span class="num-rating">  (3 reviews)</span>
+                        </h1>
+                        <p> This homemade cinnamon swirl bread recipe is a family favorite ...</p>
+                        <a href="cinnamon.html">
+                            <div class="read-more">
+                                READ MORE
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- 15 -->
+            <div class="card">
+                <div class="image">
+                    <img src="../images/global/food/french-toast.png" />
+                </div>
+                <div class="details">
+                    <div class="pos">
+                        <h1>
+                            French toast<br>
+                            <span class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </span>
+                            <span class="num-rating">  (3 reviews)</span>
+                        </h1>
+                        <p>Brioche and challah bread make the best French toast...</p>
+                        <a href="french-toast.html">
+                            <div class="read-more">
+                                READ MORE
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="footer">
+        <!-- FOOTER [START] -->
+        <footer>
+            <div class="content">
+                <div class="left box">
+                    <div class="upper">
+
+                        <div>
+                            <i class='bx bx-restaurant name-logo'></i>
+                            <a class="name">sugarmama</a>
+                        </div>
+                    </div>
+                    <div class="lower">
+                        <div class="contact-us">CONTACT US</div>
+                        <div class="phone">
+                            <a href="#"><i class="fas fa-phone-volume"></i>(0999) 999 9999</a>
+                        </div>
+                        <div class="email">
+                            <a href="#"><i class="fas fa-envelope"></i>sugarmama@gmail.com</a>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="right box">
+                    <div class="subscribe">SUBSCRIBE</div>
+                    <form action="#">
+                        <input type="text" placeholder="Email address">
+                        <input type="submit" name="" value="Send">
+                    </form>
+                </div>
+            </div>
+            <div class="bottom">
+                <p>COPYRIGHT © 2022 <a href="index.html"> SUGARMAMA </a> ALL RIGHTS RESERVED</p>
+            </div>
+        </footer>
+        <!-- FOOTER [END] -->
+    </div>
+
+</body>
+
+</html>
